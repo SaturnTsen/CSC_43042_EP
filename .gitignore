@@ -1,0 +1,7 @@
+.vscode
+__pycache__
+*.pyc
+CSC43042EP-td1-1-handin/grader.py
+CSC43042EP-td1-1-handin/csv
+CSC43042EP-td1-1-handin/tests
+

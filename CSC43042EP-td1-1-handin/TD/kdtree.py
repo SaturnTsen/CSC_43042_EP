@@ -35,6 +35,7 @@ def partition(X: np.ndarray, start: int, stop: int, c: int) -> int:
     # med = median(X, start, stop, c)
     idx = start + (stop - start)//2
     indices = X[start:stop, c].argsort()
+    # NOTE 第一遍写的时候，直接对X进行了indices索引，导致缺少了start偏移量
     X[start:stop] = X[start:stop, :][indices]
     return idx
 

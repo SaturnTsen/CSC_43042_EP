@@ -23,8 +23,10 @@ def median(X: np.ndarray, start: int, stop: int, c: int) -> float:
 
 def swap(X: np.ndarray, idx1, idx2) -> None:
     """Swaps two rows of a 2D numpy array"""
-    X[idx1, :], X[idx2, :] = X[idx2, :], X[idx1, :]
-
+    # This is erroneous
+    # X[idx1, :], X[idx2, :] = X[idx2, :], X[idx1, :]
+    # This is the correct implementation
+    X[[idx1,idx2]]=X[[idx2,idx1]]
 
 def partition(X: np.ndarray, start: int, stop: int, c: int) -> int:
     """

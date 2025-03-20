@@ -2,7 +2,7 @@
 
 ## Introduction
 
-My assignments for the CSC 43042 EP course. These assignments are provided for reference purposes only and are not intended for grading.
+My assignments for the CSC 43042 EP course CSC_43042_EP. These assignments are provided for reference purposes only and are not intended for grading.
 
 ## Course Description
 
